@@ -1,0 +1,145 @@
+Experimento,ID_Cliente,Accuracy_Local,Recall_Local
+FedAvg | Logistic Regression | Sin Privacidad,1,0.9990412756080331,0.6511627906976745
+FedAvg | Logistic Regression | Sin Privacidad,2,0.9988394388939348,0.5753424657534246
+FedAvg | Logistic Regression | Sin Privacidad,3,0.9991674235543445,0.6521739130434783
+FedAvg | Logistic Regression | Clipping,1,0.9680088808154204,0.8953488372093024
+FedAvg | Logistic Regression | Clipping,2,0.968866686850338,0.9178082191780822
+FedAvg | Logistic Regression | Clipping,3,0.9690685235644364,0.927536231884058
+FedAvg | Logistic Regression | Noising,1,0.9990412756080331,0.6511627906976745
+FedAvg | Logistic Regression | Noising,2,0.9988394388939348,0.5753424657534246
+FedAvg | Logistic Regression | Noising,3,0.9991674235543445,0.6521739130434783
+FedAvg | Logistic Regression | Clipping+Noising,1,0.9677061257442728,0.8953488372093024
+FedAvg | Logistic Regression | Clipping+Noising,2,0.9692703602785346,0.9315068493150684
+FedAvg | Logistic Regression | Clipping+Noising,3,0.9691694419214855,0.927536231884058
+FedAvg | Ridge | Sin Privacidad,1,0.9986880613583611,0.4883720930232558
+FedAvg | Ridge | Sin Privacidad,2,0.9986123725905742,0.4520547945205479
+FedAvg | Ridge | Sin Privacidad,3,0.9988142093046726,0.4492753623188406
+FedAvg | Ridge | Clipping,1,0.9986880613583611,0.4883720930232558
+FedAvg | Ridge | Clipping,2,0.9986123725905742,0.4520547945205479
+FedAvg | Ridge | Clipping,3,0.9988142093046726,0.4492753623188406
+FedAvg | Ridge | Noising,1,0.9985619134120497,0.43023255813953487
+FedAvg | Ridge | Noising,2,0.9985366838227874,0.410958904109589
+FedAvg | Ridge | Noising,3,0.9987889797154103,0.43478260869565216
+FedAvg | Ridge | Clipping+Noising,1,0.9987385205368856,0.5116279069767442
+FedAvg | Ridge | Clipping+Noising,2,0.9986880613583611,0.4931506849315068
+FedAvg | Ridge | Clipping+Noising,3,0.998940357250984,0.5217391304347826
+FedAvg | Decision Tree | Sin Privacidad,1,0.9978302553234434,0.0
+FedAvg | Decision Tree | Sin Privacidad,2,0.9981582399838531,0.0
+FedAvg | Decision Tree | Sin Privacidad,3,0.9982591583409022,0.0
+FedAvg | Decision Tree | Clipping,1,0.9978302553234434,0.0
+FedAvg | Decision Tree | Clipping,2,0.9981582399838531,0.0
+FedAvg | Decision Tree | Clipping,3,0.9982591583409022,0.0
+FedAvg | Decision Tree | Noising,1,0.9978302553234434,0.0
+FedAvg | Decision Tree | Noising,2,0.9981582399838531,0.0
+FedAvg | Decision Tree | Noising,3,0.9982591583409022,0.0
+FedAvg | Decision Tree | Clipping+Noising,1,0.9978302553234434,0.0
+FedAvg | Decision Tree | Clipping+Noising,2,0.9981582399838531,0.0
+FedAvg | Decision Tree | Clipping+Noising,3,0.9982591583409022,0.0
+FedAvg | Random Forest | Sin Privacidad,1,0.9978302553234434,0.0
+FedAvg | Random Forest | Sin Privacidad,2,0.9981582399838531,0.0
+FedAvg | Random Forest | Sin Privacidad,3,0.9982591583409022,0.0
+FedAvg | Random Forest | Clipping,1,0.9978302553234434,0.0
+FedAvg | Random Forest | Clipping,2,0.9981582399838531,0.0
+FedAvg | Random Forest | Clipping,3,0.9982591583409022,0.0
+FedAvg | Random Forest | Noising,1,0.9978302553234434,0.0
+FedAvg | Random Forest | Noising,2,0.9981582399838531,0.0
+FedAvg | Random Forest | Noising,3,0.9982591583409022,0.0
+FedAvg | Random Forest | Clipping+Noising,1,0.9978302553234434,0.0
+FedAvg | Random Forest | Clipping+Noising,2,0.9981582399838531,0.0
+FedAvg | Random Forest | Clipping+Noising,3,0.9982591583409022,0.0
+FedAvg | Naive Bayes | Sin Privacidad,1,0.9978302553234434,0.0
+FedAvg | Naive Bayes | Sin Privacidad,2,0.9981582399838531,0.0
+FedAvg | Naive Bayes | Sin Privacidad,3,0.9982591583409022,0.0
+FedAvg | Naive Bayes | Clipping,1,0.9978302553234434,0.0
+FedAvg | Naive Bayes | Clipping,2,0.9981582399838531,0.0
+FedAvg | Naive Bayes | Clipping,3,0.9982591583409022,0.0
+FedAvg | Naive Bayes | Noising,1,0.9978302553234434,0.0
+FedAvg | Naive Bayes | Noising,2,0.9981582399838531,0.0
+FedAvg | Naive Bayes | Noising,3,0.9982591583409022,0.0
+FedAvg | Naive Bayes | Clipping+Noising,1,0.9978302553234434,0.0
+FedAvg | Naive Bayes | Clipping+Noising,2,0.9981582399838531,0.0
+FedAvg | Naive Bayes | Clipping+Noising,3,0.9982591583409022,0.0
+FedAvg | Neural Network MLP | Sin Privacidad,1,0.9987385205368856,0.5116279069767442
+FedAvg | Neural Network MLP | Sin Privacidad,2,0.9985366838227874,0.3972602739726027
+FedAvg | Neural Network MLP | Sin Privacidad,3,0.9988898980724594,0.463768115942029
+FedAvg | Neural Network MLP | Clipping,1,0.9978302553234434,0.0
+FedAvg | Neural Network MLP | Clipping,2,0.9981582399838531,0.0
+FedAvg | Neural Network MLP | Clipping,3,0.9982591583409022,0.0
+FedAvg | Neural Network MLP | Noising,1,0.9987132909476234,0.5
+FedAvg | Neural Network MLP | Noising,2,0.9985366838227874,0.3972602739726027
+FedAvg | Neural Network MLP | Noising,3,0.9988646684831971,0.4492753623188406
+FedAvg | Neural Network MLP | Clipping+Noising,1,0.9978302553234434,0.0
+FedAvg | Neural Network MLP | Clipping+Noising,2,0.9981582399838531,0.0
+FedAvg | Neural Network MLP | Clipping+Noising,3,0.9982591583409022,0.0
+FedMedian | Logistic Regression | Sin Privacidad,1,0.9992683419113937,0.7674418604651163
+FedMedian | Logistic Regression | Sin Privacidad,2,0.9990412756080331,0.684931506849315
+FedMedian | Logistic Regression | Sin Privacidad,3,0.9993692602684429,0.7681159420289855
+FedMedian | Logistic Regression | Clipping,1,0.9669492380664043,0.9069767441860465
+FedMedian | Logistic Regression | Clipping,2,0.9678827328691089,0.9452054794520548
+FedMedian | Logistic Regression | Clipping,3,0.9686648501362398,0.927536231884058
+FedMedian | Logistic Regression | Noising,1,0.9992683419113937,0.7674418604651163
+FedMedian | Logistic Regression | Noising,2,0.9990665051972953,0.6986301369863014
+FedMedian | Logistic Regression | Noising,3,0.9993692602684429,0.7681159420289855
+FedMedian | Logistic Regression | Clipping+Noising,1,0.967630436976486,0.9069767441860465
+FedMedian | Logistic Regression | Clipping+Noising,2,0.967983651226158,0.9452054794520548
+FedMedian | Logistic Regression | Clipping+Noising,3,0.9689676052073872,0.927536231884058
+FedMedian | Ridge | Sin Privacidad,1,0.9986880613583611,0.4883720930232558
+FedMedian | Ridge | Sin Privacidad,2,0.9986628317690988,0.4794520547945205
+FedMedian | Ridge | Sin Privacidad,3,0.9989151276617216,0.5072463768115942
+FedMedian | Ridge | Clipping,1,0.9986880613583611,0.4883720930232558
+FedMedian | Ridge | Clipping,2,0.9986628317690988,0.4794520547945205
+FedMedian | Ridge | Clipping,3,0.9989151276617216,0.5072463768115942
+FedMedian | Ridge | Noising,1,0.9988142093046726,0.5465116279069767
+FedMedian | Ridge | Noising,2,0.9987637501261479,0.5342465753424658
+FedMedian | Ridge | Noising,3,0.9990917347865577,0.6086956521739131
+FedMedian | Ridge | Clipping+Noising,1,0.9986880613583611,0.5
+FedMedian | Ridge | Clipping+Noising,2,0.9986880613583611,0.4931506849315068
+FedMedian | Ridge | Clipping+Noising,3,0.9988394388939348,0.4927536231884058
+FedMedian | Decision Tree | Sin Privacidad,1,0.9978302553234434,0.0
+FedMedian | Decision Tree | Sin Privacidad,2,0.9981582399838531,0.0
+FedMedian | Decision Tree | Sin Privacidad,3,0.9982591583409022,0.0
+FedMedian | Decision Tree | Clipping,1,0.9978302553234434,0.0
+FedMedian | Decision Tree | Clipping,2,0.9981582399838531,0.0
+FedMedian | Decision Tree | Clipping,3,0.9982591583409022,0.0
+FedMedian | Decision Tree | Noising,1,0.9978302553234434,0.0
+FedMedian | Decision Tree | Noising,2,0.9981582399838531,0.0
+FedMedian | Decision Tree | Noising,3,0.9982591583409022,0.0
+FedMedian | Decision Tree | Clipping+Noising,1,0.9978302553234434,0.0
+FedMedian | Decision Tree | Clipping+Noising,2,0.9981582399838531,0.0
+FedMedian | Decision Tree | Clipping+Noising,3,0.9982591583409022,0.0
+FedMedian | Random Forest | Sin Privacidad,1,0.9978302553234434,0.0
+FedMedian | Random Forest | Sin Privacidad,2,0.9981582399838531,0.0
+FedMedian | Random Forest | Sin Privacidad,3,0.9982591583409022,0.0
+FedMedian | Random Forest | Clipping,1,0.9978302553234434,0.0
+FedMedian | Random Forest | Clipping,2,0.9981582399838531,0.0
+FedMedian | Random Forest | Clipping,3,0.9982591583409022,0.0
+FedMedian | Random Forest | Noising,1,0.9978302553234434,0.0
+FedMedian | Random Forest | Noising,2,0.9981582399838531,0.0
+FedMedian | Random Forest | Noising,3,0.9982591583409022,0.0
+FedMedian | Random Forest | Clipping+Noising,1,0.9978302553234434,0.0
+FedMedian | Random Forest | Clipping+Noising,2,0.9981582399838531,0.0
+FedMedian | Random Forest | Clipping+Noising,3,0.9982591583409022,0.0
+FedMedian | Naive Bayes | Sin Privacidad,1,0.9978302553234434,0.0
+FedMedian | Naive Bayes | Sin Privacidad,2,0.9981582399838531,0.0
+FedMedian | Naive Bayes | Sin Privacidad,3,0.9982591583409022,0.0
+FedMedian | Naive Bayes | Clipping,1,0.9978302553234434,0.0
+FedMedian | Naive Bayes | Clipping,2,0.9981582399838531,0.0
+FedMedian | Naive Bayes | Clipping,3,0.9982591583409022,0.0
+FedMedian | Naive Bayes | Noising,1,0.9978302553234434,0.0
+FedMedian | Naive Bayes | Noising,2,0.9981582399838531,0.0
+FedMedian | Naive Bayes | Noising,3,0.9982591583409022,0.0
+FedMedian | Naive Bayes | Clipping+Noising,1,0.9978302553234434,0.0
+FedMedian | Naive Bayes | Clipping+Noising,2,0.9981582399838531,0.0
+FedMedian | Naive Bayes | Clipping+Noising,3,0.9982591583409022,0.0
+FedMedian | Neural Network MLP | Sin Privacidad,1,0.9987132909476234,0.5
+FedMedian | Neural Network MLP | Sin Privacidad,2,0.9985366838227874,0.3972602739726027
+FedMedian | Neural Network MLP | Sin Privacidad,3,0.9988898980724594,0.463768115942029
+FedMedian | Neural Network MLP | Clipping,1,0.9978302553234434,0.0
+FedMedian | Neural Network MLP | Clipping,2,0.9981582399838531,0.0
+FedMedian | Neural Network MLP | Clipping,3,0.9982591583409022,0.0
+FedMedian | Neural Network MLP | Noising,1,0.9986628317690988,0.47674418604651164
+FedMedian | Neural Network MLP | Noising,2,0.998511454233525,0.3835616438356164
+FedMedian | Neural Network MLP | Noising,3,0.9988142093046726,0.42028985507246375
+FedMedian | Neural Network MLP | Clipping+Noising,1,0.9978302553234434,0.0
+FedMedian | Neural Network MLP | Clipping+Noising,2,0.9981582399838531,0.0
+FedMedian | Neural Network MLP | Clipping+Noising,3,0.9982591583409022,0.0

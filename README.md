@@ -1,46 +1,61 @@
-# federated_fraud
+# Detección de fraude con aprendizaje federado
 
-Proyecto de ejemplo para Detección Federada de Fraude (Flower + PyTorch + scikit-learn).
+Proyecto de *Inteligencia Artificial Distribuida* (ITLA): detección de fraude en
+transacciones comparando un **modelo centralizado** contra **aprendizaje federado**
+(Flower + PyTorch), incluyendo experimentos con **privacidad diferencial**.
 
-Contenido principal:
+## Contenido
 
-- data/fraud_data.csv — placeholder/sintético pequeño (reemplazar por dataset real).
-- fed_fraud/ — paquete con código (data_utils, models, privacy, client/server, experiments, etc.).
-- notebooks/01_eda_y_calidad_datos.ipynb — notebook de EDA y validación de calidad.
+| Ruta | Qué es |
+|---|---|
+| [`notebooks/proyecto_deteccion_fraude.ipynb`](notebooks/proyecto_deteccion_fraude.ipynb) | Proyecto completo con análisis, entrenamiento y resultados (EDA, baseline centralizado, federado, gráficas) |
+| [`resultados/`](resultados/) | Benchmarks finales: métricas globales y por cliente federado |
+| [`docs/ensayo.pdf`](docs/ensayo.pdf) | Ensayo del proyecto |
+| `client_pytorch.py` / `server_pytorch.py` | Cliente y servidor de Flower para el entrenamiento federado |
+| `models.py` | Redes en PyTorch para clasificación de fraude |
+| `privacy.py` | Utilidades de privacidad diferencial (ruido/clipping) |
+| `data_utils.py` / `eval_utils.py` | Carga, partición por cliente y métricas de evaluación |
+| `train_centralized.py` | Baseline centralizado para comparar |
+| `experiments.py` | Orquestación de los experimentos |
 
-Instalación (ejemplo con PowerShell):
+`fraud_data.csv` es un placeholder mínimo del formato de datos; el notebook
+documenta el dataset real utilizado.
 
-1) Crear y activar entorno virtual:
-   python -m venv .venv
-   .\.venv\Scripts\Activate.ps1
-2) Actualizar pip e instalar dependencias:
-   pip install -U pip
-   pip install -r requirements.txt
+## Instalación
 
-Notas:
-- Para instalar `torch` elige la variante adecuada en https://pytorch.org/ si necesitas GPU.
-- `flwr` (Flower) está incluido en requirements.txt.
+```bash
+python -m venv .venv
+.venv\Scripts\activate       # en Windows
+pip install -r requirements.txt
+```
 
-Ejecutar experimentos:
-   python -c "from fed_fraud.experiments import run_experiments; run_experiments(data_path='data/fraud_data.csv', output_csv='experiments_results.csv')"
+Para `torch` con GPU, instala la variante adecuada desde https://pytorch.org/.
 
-Copiar el proyecto a C:\Users\TuNombre\Documents\federated_fraud (reemplaza TuNombre):
+## Uso
 
-Opción simple (PowerShell):
-   $dest = 'C:\Users\TuNombre\Documents\federated_fraud'
-   New-Item -ItemType Directory -Force -Path $dest
-   Copy-Item -Path .\federated_fraud\* -Destination $dest -Recurse -Force
+- **Notebook**: abrir `notebooks/proyecto_deteccion_fraude.ipynb` — contiene el
+  flujo completo con los resultados ya ejecutados.
+- **Federado por consola**: iniciar el servidor y luego los clientes Flower:
 
-Opción con robocopy (robusta):
-   robocopy .\federated_fraud "C:\Users\TuNombre\Documents\federated_fraud" /MIR
+```bash
+python server_pytorch.py
+# en otras terminales:
+python client_pytorch.py
+```
 
-Opción zip:
-   Compress-Archive -Path .\federated_fraud\* -DestinationPath C:\Users\TuNombre\Documents\federated_fraud.zip -Force
-   Expand-Archive -Path C:\Users\TuNombre\Documents\federated_fraud.zip -DestinationPath C:\Users\TuNombre\Documents\federated_fraud -Force
+- **Baseline centralizado**:
 
-Verificar archivos:
-   Get-ChildItem -Path 'C:\Users\TuNombre\Documents\federated_fraud' -Recurse
+```bash
+python train_centralized.py
+```
 
-Siguientes mejoras sugeridas:
-- Generar un dataset sintético grande para pruebas si no hay datos reales.
-- Integrar callbacks de Flower para métricas por ronda y guardado automático de modelo federado.
+## Resultados
+
+Los CSV de [`resultados/`](resultados/) comparan las configuraciones evaluadas
+(centralizado vs federado, con y sin privacidad diferencial) con métricas
+globales y desagregadas por cliente. El análisis está en el notebook y en el
+ensayo.
+
+## Licencia
+
+[MIT](LICENSE)

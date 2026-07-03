@@ -1,0 +1,29 @@
+Estrategia;Modelo;Privacidad;Accuracy;Recall;ROC_AUC;Tiempo Entrenamiento (s);Tiempo Inferencia (s)
+FedAvg;Logistic Regression;Sin Privacidad;0.9992;0.75;0.9994996;46.40864468;-1
+FedAvg;Logistic Regression;Clipping;0.9308;1;0.99944956;40.74753785;-1
+FedAvg;Logistic Regression;Noising;0.9992;0.75;0.9994996;39.22898889;-1
+FedAvg;Logistic Regression;Clipping+Noising;0.9292;1;0.99944956;38.11260533;-1
+FedAvg;Ridge;Sin Privacidad;0.999;0.5;0.74969976;38.8658762;-1
+FedAvg;Ridge;Clipping;0.999;0.5;0.74969976;40.18492317;-1
+FedAvg;Ridge;Noising;0.999;0.5;0.74969976;40.45296121;-1
+FedAvg;Ridge;Clipping+Noising;0.999;0.5;0.74969976;38.62247777;-1
+FedAvg;Decision Tree;Sin Privacidad;0.9992;1;0.99959968;152.2195187;-1
+FedAvg;Decision Tree;Clipping;0.9992;1;0.99959968;151.8003087;-1
+FedAvg;Decision Tree;Noising;0.9992;1;0.99959968;151.9375317;-1
+FedAvg;Decision Tree;Clipping+Noising;0.9992;1;0.99959968;153.5196037;-1
+FedAvg;Random Forest;Sin Privacidad;0.9994;1;0.99994996;592.7823906;-1
+FedAvg;Random Forest;Clipping;0.9994;1;0.99994996;587.8352287;-1
+FedAvg;Random Forest;Noising;0.9994;1;0.99994996;588.9543653;-1
+FedAvg;Random Forest;Clipping+Noising;0.9994;1;0.99994996;586.6421204;-1
+FedAvg;KNN;Sin Privacidad;0.999;0.75;0.99952462;56.93073177;-1
+FedAvg;KNN;Clipping;0.999;0.75;0.99952462;55.96849442;-1
+FedAvg;KNN;Noising;0.999;0.75;0.99952462;55.88758111;-1
+FedAvg;KNN;Clipping+Noising;0.999;0.75;0.99952462;57.00119758;-1
+FedAvg;Naive Bayes;Sin Privacidad;0.9782;1;0.993694956;38.24103856;-1
+FedAvg;Naive Bayes;Clipping;0.9782;1;0.993694956;39.87328792;-1
+FedAvg;Naive Bayes;Noising;0.9782;1;0.993694956;39.47835302;-1
+FedAvg;Naive Bayes;Clipping+Noising;0.9782;1;0.993694956;38.55938625;-1
+FedAvg;Neural Network MLP;Sin Privacidad;0.9988;0.5;0.754703763;47.28129625;-1
+FedAvg;Neural Network MLP;Clipping;0.9992;0;0.76611289;46.73206663;-1
+FedAvg;Neural Network MLP;Noising;0.9988;0.5;0.759207366;46.03321719;-1
+FedAvg;Neural Network MLP;Clipping+Noising;0.9992;0;0.756004804;47.45409036;-1
